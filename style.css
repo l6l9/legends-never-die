@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@charset "UTF-8";
+
+
+:root{
+    --cor1:#10122f;
+    --cor2:#491d34;
+    --cor3:#60a7db;
+    --cor4:#f55d6a;
+    --trp:rgba(255, 255, 255, 0.295);
+    --shd: 0px 2px 2px 2px rgba(0, 0, 0, 0.171);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: var(--cor1);
+    color: white;
+
+    padding: 20px;
+
+    min-height: 120px;
+
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.171);
+}header>h1{
+    font-size: 5em;
+    font-variant: small-caps;
+}header>p{
+    font-family: sans-serif;
+}
+
+
+main{
+    
+    background-color: var(--cor2);
+
+    
+}
+main p{
+    
+
+    
+    width: max(45%, 250px) ;
+    min-width: 300px;
+
+    font-size: max(1.8em, 3vw);
+    text-align: left;
+    line-height: 1.8em;
+    
+    padding: 10vh 0px 10vh 10px;
+
+    font-family: serif;
+
+
+    
+}
+.die p{
+    background-color: var(--trp);
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+
+    box-shadow: var(--shd);
+}
+div{
+    
+    padding: 40px;
+    min-width: 300px;
+    min-height: 100vh;
+    
+}
+
+
+
+
+.lendas{
+    background-color: white;
+}
+
+
+footer{
+    background-color: var(--cor1);
+    color: white;
+
+    text-align: center;
+
+    height: 20px;
+    padding: 5px;
+
+    font-family: sans-serif;
+}
+
+#um{
+    background-image: url(1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#dois{
+    background-image: url(2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+} 
+#tres{
+    background-image: url(3.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+} 
+#quatro{
+    background-image: url(4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+} 
